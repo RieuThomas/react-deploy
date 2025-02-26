@@ -3,8 +3,6 @@ import Pokedex from './Pokedex'
 import Menu from './Menu'
 import { useState } from 'react'
 
-
-
 function App() {
 
   const [gen, setGen] = useState('')

@@ -1,10 +1,9 @@
 import '../style/Menu.css'
 import { useState } from 'react'
 
-function Menu({ gen, setGen }) {
+function Menu({ setGen }) {
     const range = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     const [isOpen, setIsOpen] = useState(false)
-
 
     return (
         <div className="style-menu" >
